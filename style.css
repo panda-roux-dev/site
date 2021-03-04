@@ -1,0 +1,28 @@
+body {
+	font-family: sans-serif;
+	background: #0C1A1A;
+	color: #80886E;
+}
+
+.box {
+	padding: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin: 6px;
+	border-style: solid;
+	border-width: 1px;
+	max-width: 24em;
+}
+
+.box.link {
+	display: flex;
+	justify-content: space-between;
+}
+
+a:link {
+	color: #927676;
+}
+
+a:visited, a:active {
+	color: #584747;
+}
